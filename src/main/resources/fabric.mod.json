@@ -3,9 +3,22 @@
   "id": "epicknightslancefix",
   "version": "${version}",
   "name": "EpicKnightsLanceFix",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Fixes the dismount feature of the lances",
+  "authors": [
+    {
+      "name": "Brodino",
+      "contact": {
+        "email": "brodino96@gmail.com",
+        "homepage": "https://brodino.dev",
+        "issues": "https://github.com/Brodino96/EpicKnightsLanceFix/issues",
+        "sources": "https://github.com/Brodino96/EpicKnightsLanceFix"
+      }
+    }
+  ],
+  "contact": {
+    "sources": "https://github.com/Brodino96/EpicKnightsLanceFix",
+    "issues": "https://github.com/Brodino96/EpicKnightsLanceFix/issues"
+  },
   "license": "MIT",
   "icon": "assets/epicknightslancefix/icon.png",
   "environment": "*",
