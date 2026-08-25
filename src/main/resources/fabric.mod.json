@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "epicknightslancefix",
+  "version": "${version}",
+  "name": "EpicKnightsLanceFix",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/epicknightslancefix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.brodino.epicknightslancefix.client.EpicKnightsLanceFixClient"
+    ],
+    "main": [
+      "dev.brodino.epicknightslancefix.EpicKnightsLanceFix"
+    ]
+  },
+  "mixins": [
+    "epicknightslancefix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
